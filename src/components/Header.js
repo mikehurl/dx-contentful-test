@@ -4,7 +4,7 @@ import { Link } from '@reach/router';
 
 const Container = styled.nav`
   align-items: flex-end;
-  background-color: #0070AD;
+  background-color: #0070ad;
   display: flex;
   height: 4em;
   justify-content: flex-end;
@@ -36,8 +36,8 @@ class Header extends Component {
   render() {
     return (
       <Container>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/admin'>Admin</NavLink>
+        <NavLink to='/'>Consume</NavLink>
+        <NavLink to='/create'>Create</NavLink>
       </Container>
     )
   }

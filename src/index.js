@@ -4,12 +4,12 @@ import { Router } from "@reach/router";
 
 import App from './components/App';
 import Admin from './components/Admin';
-import './utils/globalStyles';
+import './utils/globalCSS';
 
 render(
   <Router>
     <App path='/' />
-    <Admin path='/admin'></Admin>
+    <Admin path='/create'></Admin>
   </Router>,
   document.getElementById('root')
 );
